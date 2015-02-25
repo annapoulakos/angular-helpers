@@ -1,0 +1,31 @@
+{
+  "name": "angular-helpers",
+  "version": "0.0.0",
+  "description": "> This repo contains a large number of random things. You have been forewarned.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimpoulakos/angular-helpers.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jimpoulakos/angular-helpers/issues"
+  },
+  "homepage": "https://github.com/jimpoulakos/angular-helpers",
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-rename": "~1.2.0",
+    "gulp-concat": "~2.5.2",
+    "gulp-minify-css": "~0.4.6",
+    "gulp-jshint": "~1.9.2",
+    "gulp-uglify": "~1.1.0",
+    "browserify": "~9.0.3",
+    "gulp-less": "~3.0.1",
+    "babelify": "~5.0.3",
+    "gulp-babel": "~4.0.0"
+  }
+}
