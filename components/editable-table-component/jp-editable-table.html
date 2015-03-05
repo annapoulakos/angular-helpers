@@ -1,0 +1,17 @@
+<div class="jp-editable-table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th ng-repeat="element in Table.etSource">{{element.label}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="width: 100px;" ng-repeat="element in Table.etSource">
+                    <span style="width: 100%; display: inline-block;" ng-hide="element.selected" ng-click="Table.select(element, $index)">{{element.value}}</span>
+                    <input id="editable-field-{{$index}}" style="width: 100%" type="text" ng-show="element.selected" ng-model="element.value" ng-blur="Table.deselect(element)">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
